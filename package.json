@@ -1,0 +1,17 @@
+{
+  "name": "skeleton",
+  "version": "0.0.0",
+  "description": "This is a skeleton static JS project",
+  "main": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015": "*"
+  },
+  "scripts": {
+    "build": "babel src -d lib && browserify lib/main.js -o dist/main.js && cp src/index.html dist"
+  },
+  "author": "",
+  "license": ""
+}
