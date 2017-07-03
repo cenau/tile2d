@@ -1,8 +1,9 @@
-Minimal ES6 javascript starter
+Minimal javascript starter
 
 source goes in `src`
 
+`npm run dev` for dev server 
+
 `npm run build` to build
 
-transpiled stuff ends up in `dist/index.html`
-
+transpiled stuff ends up in `dist`
