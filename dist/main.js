@@ -799,8 +799,12 @@ var _template2 = _interopRequireDefault(_template);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 document.addEventListener("DOMContentLoaded", function () {
-	document.body.innerHTML = _template2.default.render({ header: 'It Lives!' });
+	startApp();
 });
+
+function startApp() {
+	document.body.innerHTML = _template2.default.render({ header: 'It Lives!' });
+}
 
 },{"./template.mustache":5}],5:[function(require,module,exports){
 var Hogan = require('hogan.js');
