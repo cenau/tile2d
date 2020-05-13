@@ -1,6 +1,6 @@
 {
   "name": "skeleton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "minimal static javascript starter",
   "main": "",
   "dependencies": {
@@ -9,9 +9,9 @@
     "hoganify": "^0.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.51",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
     "babel-core": "*",
-    "babel-preset-env": "*",
     "babelify": "^9.0.0",
     "browserify-css": "^0.14.0",
     "eslint": "^4.19.1",

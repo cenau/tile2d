@@ -2,14 +2,14 @@
 
 source goes in `src`
 
-`npm install` to install deps and dev deps 
+`yarn install` to install deps and dev deps 
 
-`npm run dev` for dev server 
+`yarn run dev` for dev server 
 
-`npm run build` to build
+`yarn run build` to build
 
-`npm run lint` to lint 
+`yarn run lint` to lint 
 
-`npm run lint:fix` to autofix 
+`yarn run lint:fix` to autofix 
 
 transpiled stuff ends up in `dist`
