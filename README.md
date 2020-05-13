@@ -1,4 +1,4 @@
-#Minimal javascript starter
+#tile2d
 
 source goes in `src`
 
